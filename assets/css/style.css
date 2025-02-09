@@ -21,6 +21,18 @@ nav {
 }
 
 @media screen and (max-width:768px) {
+    .imginicio {
+        height: 400px; object-fit: cover;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .imginicio {
+        height: 600px; object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px) {
     #cine {
         font-size: 25px;
     }    
@@ -175,11 +187,6 @@ input, label, textarea {
     border-radius: 4px;
     text-align: start;
     margin-top: 20px;
-}
-
-.contenfin {
-    font-size: 20px;
-    font-family:sans-serif;
 }
 
 .imgfin img {
